@@ -1,0 +1,64 @@
+.hero {
+    margin-bottom: 200px;
+}
+
+.container {}
+
+.hero_container {
+    padding: 0;
+    background-image: url(./../images/hero_coffee.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.hero_top{
+    padding-top: 80px;
+    padding: 100px 86px;
+}
+.hero_header {
+    width: 493px;
+    height: 145px;
+    color: #FEFCF7;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+    
+}
+
+.hero_text {
+    width: 417px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+    margin-bottom: 56px;
+    
+}
+
+.hero_button {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #0E8784;
+    border: none;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+    &:hover{
+        background: #66D2CF;
+       
+}
+}

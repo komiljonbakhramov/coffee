@@ -1,0 +1,38 @@
+.choose {
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.choose_container {
+    background: #333D4B;
+    height: 577px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose_header {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 32px;
+
+}
+
+.choose_text {
+    width: 540px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+   
+}
